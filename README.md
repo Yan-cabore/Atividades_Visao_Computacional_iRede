@@ -11,42 +11,16 @@ Engenharia de Computação — Instituto Federal de Educação, Ciência e Tecno
 
 Este repositório reúne os exercícios, atividades e projetos desenvolvidos ao longo do curso de Visão Computacional oferecido pelo Instituto iRede, cobrindo tópicos como processamento de imagens, detecção de objetos, segmentação e demais técnicas aplicadas de visão computacional.
 
-## 📁 Estrutura
-
-```
-.
-├── atividades/       # Exercícios e atividades práticas do curso
-├── projetos/         # Projetos maiores desenvolvidos ao longo do curso
-├── datasets/         # Conjuntos de dados utilizados (ou instruções de download)
-└── notebooks/        # Notebooks de estudo e experimentação
-```
-
 ## 🛠️ Tecnologias
 
 - Python
 - OpenCV
 - NumPy
-- (adicionar demais bibliotecas conforme o curso avançar, ex: YOLO, TensorFlow, PyTorch)
-
-## ▶️ Como executar
-
-```bash
-# Clonar o repositório
-git clone https://github.com/<seu-usuario>/Atividades_Visao_Computacional.git
-cd Atividades_Visao_Computacional
-
-# Criar ambiente virtual
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-
-# Instalar dependências
-pip install -r requirements.txt
-```
+- Matplotlib
 
 ## 🧰 vision_utils.py
 
-O repositório conta com um módulo utilitário (`vision_utils.py`), com a classe `Utils`, que centraliza funções reaproveitáveis usadas ao longo das atividades para manipulação e exibição de imagens com OpenCV e Matplotlib. Esse arquivo **será atualizado continuamente** conforme novos métodos forem necessários no decorrer do curso.
+O repositório conta com um módulo utilitário (`vision_utils.py`), com a classe `VisionUtils`, que centraliza funções reaproveitáveis usadas ao longo das atividades para manipulação e exibição de imagens com OpenCV e Matplotlib. Esse arquivo **será atualizado continuamente** conforme novos métodos forem necessários no decorrer do curso.
 
 Métodos disponíveis atualmente:
 
